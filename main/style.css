@@ -5,7 +5,7 @@
 }
 
 header {
-  background-color: #541554;
+  background-color: #4A154B;
   width: 100vw;
   height: 90vh;
   font-family: Arial, Helvetica, sans-serif;
@@ -79,7 +79,7 @@ main .title {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  padding: 20px;
+  padding: 30px;
 }
 
 .sectionFlex {
@@ -153,7 +153,7 @@ main .title {
   padding: 15px;
   border-radius: 5px;
   width: 90%;
-  color: #541554;
+  color: #4A154B;
 }
 .divFlexMain .colorb {
   background-color: #4A154B;
@@ -203,6 +203,7 @@ main .title {
 .sectionLetters {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
+  padding-bottom: 30px;
 }
 .sectionLetters h3 {
   font-size: 20px;
@@ -239,7 +240,6 @@ main .title {
 }
 .h4A img {
   width: 4%;
-  fill: red;
 }
 .h4A a {
   text-decoration: none;
@@ -252,6 +252,7 @@ main .title {
   overflow-x: auto;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .h2Title {
@@ -310,7 +311,7 @@ main .title {
   padding: 15px;
   border-radius: 5px;
   width: 90%;
-  color: #541554;
+  color: #4A154B;
 }
 .divFlexMain2 .colorb {
   background-color: #4A154B;
@@ -329,6 +330,7 @@ footer {
   width: 100vw;
   height: 90vh;
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 100px;
 }
 
 .imgLogoS {
@@ -341,7 +343,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 12px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .h4Footer img {
   width: 10px;
@@ -367,7 +369,7 @@ footer {
 }
 .h4Foot h4 {
   padding: 12px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .h4Foot img {
   width: 15px;

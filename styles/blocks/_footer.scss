@@ -2,7 +2,8 @@ footer {
     background-color: white;
     width: 100vw;
     height: 90vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font-family-primary;
+    padding-top: 100px;
 
 }
 
@@ -17,7 +18,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         padding: 12px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     img {
@@ -45,7 +46,8 @@ footer {
 
     h4 {
         padding: 12px;
-        margin-left: 20px;
+        margin-left: 10px;
+        
     }
 
     img {
