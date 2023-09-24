@@ -73,7 +73,7 @@ header div p {
 main {
   background-color: #F4EDE4;
   width: 100%;
-  height: 750vh;
+  height: 500vh;
 }
 main .title {
   text-align: center;
@@ -158,6 +158,13 @@ main .title {
 .divFlexMain .colorb {
   background-color: #4A154B;
   color: white;
+  border-color: white;
+}
+.divFlexMain .colorC {
+  background-color: white;
+  color: #4A154B;
+  background-color: white;
+  font-weight: bold;
 }
 
 .divFlexPorcentaje {
@@ -237,4 +244,82 @@ main .title {
 .h4A a {
   text-decoration: none;
   color: #14E1FE;
+}
+
+.cardCarousel {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2Title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  border: 3px solid white;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card h2 {
+  padding-top: 40px;
+  margin-top: 10px;
+  text-align: left;
+}
+.card p {
+  color: rgb(0, 89, 255);
+  font-weight: bold;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.finalMain {
+  padding-bottom: 50px;
+  background-color: #4A154B;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+}
+.finalMain h2 {
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.divFlexMain2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4A154B;
+}
+.divFlexMain2 button {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  color: #541554;
+}
+.divFlexMain2 .colorb {
+  background-color: #4A154B;
+  color: white;
+  border-color: white;
+}
+.divFlexMain2 .colorC {
+  background-color: white;
+  color: #4A154B;
+  background-color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
